@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <!-- <link rel="stylesheet" href="./global.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Main -->
+    <div class="medol">
+      <header class="header">
+        <h1 class="seo">Medol</h1>
+        <div class="container">
+        <div class="header__info">
+          <ul class="header__list">
+            <li class="header__item">
+              <div class="header__icon">
+                <img src="./assets/mapsandflags-1.svg" alt="mapsandflags" />
+              </div>
+              <div class="header__text">
+                <span>г.Ташкент, Чиланзар</span>
+                <span>10 квартал, дом 3/1</span>
+              </div>
+            </li>
+            <li class="header__item">
+              <div class="header__icon">
+                <img src="./assets/phonecall-1-1.svg" alt="phone" />
+              </div>
+              <div class="header__text">
+                <span>+998 71 276-62-53</span>
+                <span>+998 71 276-62-54</span>
+              </div>
+            </li>
+          </ul>
+          <div class="header__logo">
+            <a href="#">
+              <img src="./assets/logo-1@2x.png" alt="logo">
+            </a>
+          </div>
+
+          <ul class="header__list">
+            <div class="header__search">
+              <button>
+                <img src="./assets/search.svg" alt="search-icon" />
+              </button>
+            </div>
+            <li class="header__item header__item-social">
+              <a href="#" class="header__link">
+                <img src="./assets/facebookappsymbol-1.svg" alt="facebook" />
+                Мы на Facebook
+              </a>
+            </li>
+            <li class="header__item header__item-social">
+              <div class="header__icon-flag">
+                <img src="./assets/flag-of-russia-1@2x.png" alt="flag-of-russia-1-icon">
+              </div>
+                <select>
+                  <option value="0">Русский</option>
+                  <option value="1">Audi</option>
+                </select>
+            </li>
+          </ul>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">МАГАЗИН</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link active">О КОМПАНИИ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#product" class="nav__link">ПРОДУКЦИЯ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">УСЛУГИ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#news" class="nav__link">АКЦИИ И НОВОСТИ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">ОБРАТНАЯ СВЯЗЬ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="slider w-100">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide w-100 h-100">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active slider__dots" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="slider__dots" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="slider__dots" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="slider__wrapper">
+                <div class="slider__info">
+                <h2 class="slider__title">
+                  Анализатор <span>ABL800 FLEX</span>
+                </h2>
+                <p class="slider__disc">
+                  Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии
+                </p>
+                <button class="slider__btn">
+                  Подробнее
+                </button>
+              </div>
+              <div class="slider__img">
+                <div class="slider__child"></div>
+                <img src="./assets/slide-1@2x.png" alt="slider__img">
+              </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="slider__wrapper">
+                <div class="slider__info">
+                <h2 class="slider__title">
+                  Анализатор <span>ABL800 FLEX</span>
+                </h2>
+                <p class="slider__disc">
+                  Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии
+                </p>
+                <button class="slider__btn">
+                  Подробнее
+                </button>
+              </div>
+              <div class="slider__img">
+                <div class="slider__child"></div>
+                <img src="./assets/slide-1@2x.png" alt="slider__img">
+              </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider__wrapper">
+                <div class="slider__info">
+                <h2 class="slider__title">
+                  Анализатор <span>ABL800 FLEX</span>
+                </h2>
+                <p class="slider__disc">
+                  Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии
+                </p>
+                <button class="slider__btn">
+                  Подробнее
+                </button>
+              </div>
+              <div class="slider__img">
+                <div class="slider__child"></div>
+                <img src="./assets/slide-1@2x.png" alt="slider__img">
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="product" id="product">
+          <div class="container">
+          <h2 class="product__title">ПРОДУКЦИЯ</h2>
+          <div class="product__wrapper">
+            <div class="product__card">
+              <img src="./assets/endeavorlarge-1@2x.png" alt="product__img" />
+              <p class="product__name">Эндоваскулярная хирургия</p>
+              <button class="product__btn">Посмотреть все</button>
+            </div>
+            <div class="product__card">
+              <img src="./assets/endeavorlarge-1@2x.png" alt="product__img" />
+              <p class="product__name">Эндоваскулярная хирургия</p>
+              <button class="product__btn">Посмотреть все</button>
+            </div>
+            <div class="product__card">
+              <img src="./assets/endeavorlarge-1@2x.png" alt="product__img" />
+              <p class="product__name">Эндоваскулярная хирургия</p>
+              <button class="product__btn">Посмотреть все</button>
+            </div>
+            <div class="product__card">
+              <img src="./assets/endeavorlarge-1@2x.png" alt="product__img" />
+              <p class="product__name">Эндоваскулярная хирургия</p>
+              <button class="product__btn">Посмотреть все</button>
+            </div>
+            <div class="product__card">
+              <img src="./assets/endeavorlarge-1@2x.png" alt="product__img" />
+              <p class="product__name">Эндоваскулярная хирургия</p>
+              <button class="product__btn">Посмотреть все</button>
+            </div>
+            <div class="product__card">
+              <img src="./assets/endeavorlarge-1@2x.png" alt="product__img" />
+              <p class="product__name">Эндоваскулярная хирургия</p>
+              <button class="product__btn">Посмотреть все</button>
+            </div>
+          </div>
+          <a href="#" class="product__go">Перейти в каталог нашей продукции <img src="./assets/uparrow-1-12.svg" alt="..." /></a>
+        </div>
+        </section>
+
+        <section class="services" id="services">
+          <h2 class="services__title">УСЛУГИ</h2>
+          <div class="services__list">
+            <div class="container">
+              <div class="services__wrapper">
+                <div class="services__card">
+                  <img src="./assets/iimcat2020applicationdeadlineextendedheresallyouneedtoknow-1@2x.png" alt="..." />
+                  <h3>СЕРВИС ОБОРУДОВАНИЯ</h3>
+                  <p>Компания предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется опыт и сертификаты фирм производителей......</p>
+                  <button>Подробнеe</button>
+                </div>
+                <div class="services__card">
+                  <img src="./assets/iimcat2020applicationdeadlineextendedheresallyouneedtoknow-1@2x.png" alt="..." />
+                  <h3>СЕРВИС ОБОРУДОВАНИЯ</h3>
+                  <p>Компания предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется опыт и сертификаты фирм производителей......</p>
+                  <button>Подробнеe</button>
+                </div>
+                <div class="services__card">
+                  <img src="./assets/iimcat2020applicationdeadlineextendedheresallyouneedtoknow-1@2x.png" alt="..." />
+                  <h3>СЕРВИС ОБОРУДОВАНИЯ</h3>
+                  <p>Компания предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется опыт и сертификаты фирм производителей......</p>
+                  <button>Подробнеe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about" id="about">
+          <h2 class="about__title">О КОМПАНИИ</h2>
+          <div class="container">
+            <div class="about__wrapper">
+              <div class="about__sheap">
+                <div class="about__1"></div>
+                <div class="about__2"></div>
+                <div class="about__3"></div>
+                <img src="./assets/logo-1@2x.png" alt="logo" />
+              </div>
+              <div class="about__content">
+                <p>Группа компаний MEDOL создавалась высококвалифицированными специалистами в сфере медицины, инженерии и экономики, за плечами которых значительный опыт на рынке высоких медицинских технологий, которая имеет свои представительства в разных уголках Земли. В 2011 году MEDOL зарегистрировал в Узбекистане ИП ООО “Medical Online Services". Цель компании построить прозрачный долгосрочный бизнес, принести пользу обществу путем развития и внедрения передовых технологий в систему здравоохранения Республики Узбекистан.</p>
+                <button>Узнать больше</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="news" id="news">
+          <h2 class="news__title">НОВОСТИ</h2>
+          <div class="container">
+            <div class="news__wrapper">
+                  <button class="pre-btn"><img src="./assets/arrowdownsigntonavigate-3-11.svg" alt=""></button>
+                  <button class="nxt-btn"><img src="./assets/arrowdownsigntonavigate-3-2.svg" alt=""></button>
+                  <div class="news-container">
+                      <div class="news-card">
+                          <div class="news-image">
+                              <img src="./assets/20180420-101750-1@2x.png"  alt="">
+                          </div>
+                          <div class="news-card-inner">
+                            <div class="news-info">
+                              <h3 class="news-title">Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича</h3>
+                              <p class="news-short-description">С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении... </p>
+                              <span class="news-date">26.07.2021</span>
+                          </div>
+                          <button>Подробнеe</button>
+                          </div>
+                      </div>
+                      <div class="news-card">
+                          <div class="news-image">
+                              <img src="./assets/20180420-101750-1@2x.png"  alt="">
+                          </div>
+                          <div class="news-card-inner">
+                            <div class="news-info">
+                              <h3 class="news-title news-title-active">Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича</h3>
+                              <p class="news-short-description">С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении... </p>
+                              <span class="news-date">26.07.2021</span>
+                          </div>
+                          <button class="news-btn-active">Подробнеe</button>
+                          </div>
+                      </div>
+                      <div class="news-card">
+                          <div class="news-image">
+                              <img src="./assets/20180420-101750-1@2x.png"  alt="">
+                          </div>
+                          <div class="news-card-inner">
+                            <div class="news-info">
+                              <h3 class="news-title">Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича</h3>
+                              <p class="news-short-description">С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении... </p>
+                              <span class="news-date">26.07.2021</span>
+                          </div>
+                          <button>Подробнеe</button>
+                          </div>
+                      </div>
+                      <div class="news-card">
+                          <div class="news-image">
+                              <img src="./assets/20180420-101750-1@2x.png"  alt="">
+                          </div>
+                          <div class="news-card-inner">
+                            <div class="news-info">
+                              <h3 class="news-title">Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича</h3>
+                              <p class="news-short-description">С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении... </p>
+                              <span class="news-date">26.07.2021</span>
+                          </div>
+                          <button>Подробнеe</button>
+                          </div>
+                      </div>
+            </div>
+            <div class="news-control">
+              <a href="#" class="news-control-btn news-control-btn-left">
+                Посмотреть все новости
+                <img src="./assets/uparrow-1-11.svg" alt="" />
+              </a>
+              <a href="#" class="news-control-btn news-control-btn-right">
+                Подписаться на новости
+                <img src="./assets/uparrow-1-12.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="partner">
+          <h2 class="partner__title">ПАРТНЕРЫ</h2>
+          <div class="container">
+            <div class="partner__wrapper">
+                  <button class="pre-btn"><img src="./assets/arrowdownsigntonavigate-3-11.svg" alt=""></button>
+                  <button class="nxt-btn"><img src="./assets/arrowdownsigntonavigate-3-2.svg" alt=""></button>
+                  <div class="news-container">
+                      <div class="partner__card">
+                          <div class="partner__card-child">
+                              <img src="./assets/aesculap-b-braun1 1.png"  alt="">
+                          </div>
+                          <div class="partner__card-child">
+                              <img src="./assets/cordis1 1.png"  alt="">
+                          </div>
+                          </div>
+                          <div class="partner__card">
+                          <div class="partner__card-child">
+                              <img src="./assets/aesculap-b-braun1 1.png"  alt="">
+                          </div>
+                          <div class="partner__card-child">
+                              <img src="./assets/cordis1 1.png"  alt="">
+                          </div>
+                          </div>
+                          <div class="partner__card">
+                          <div class="partner__card-child">
+                              <img src="./assets/aesculap-b-braun1 1.png"  alt="">
+                          </div>
+                          <div class="partner__card-child">
+                              <img src="./assets/cordis1 1.png"  alt="">
+                          </div>
+                          </div>
+                          <div class="partner__card">
+                          <div class="partner__card-child">
+                              <img src="./assets/aesculap-b-braun1 1.png"  alt="">
+                          </div>
+                          <div class="partner__card-child">
+                              <img src="./assets/cordis1 1.png"  alt="">
+                          </div>
+                          </div>
+                          <div class="partner__card">
+                          <div class="partner__card-child">
+                              <img src="./assets/aesculap-b-braun1 1.png"  alt="">
+                          </div>
+                          <div class="partner__card-child">
+                              <img src="./assets/cordis1 1.png"  alt="">
+                          </div>
+                          </div>
+                  </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <footer class="footer">
+        <div class="container">
+        <div class="footer__left">
+          <div class="footer__contact">
+            <h2 class="footer__title">Контакты</h2>
+            <ul class="header__list footer__adressEmail">
+              <li class="header__item footer__adress">
+                <div class="header__icon">
+                  <img src="./assets/mapsandflags-1.svg" alt="mapsandflags" />
+                </div>
+                <div class="header__text">
+                  <span>г.Ташкент, Чиланзар</span>
+                  <span>10 квартал, дом 3/1</span>
+                </div>
+              </li>
+              <li class="header__item footer__mail">
+                <div class="header__icon">
+                  <img src="./assets/email-1.svg" alt="phone" />
+                </div>
+                <div class="header__text">
+                  <span>info@medol.uz</span>
+                </div>
+              </li>
+            </ul>
+            <ul class="header__list footer__phone">
+              <li class="header__item">
+                <div class="header__icon">
+                  <img src="./assets/phonecall-1-1.svg" alt="mapsandflags" />
+                </div>
+                <div class="header__text">
+                  <span>г.Ташкент, Чиланзар</span>
+                  <span>10 квартал, дом 3/1</span>
+                </div>
+              </li>
+              <li class="header__item footer__btn">
+                <button>
+                  Оставить заявку
+                </button>
+              </li>
+            </ul>
+            <div class="about__comp">
+              <h2>О компании</h2>
+              <p>История</p>
+              <p>Партнеры</p>
+              <p>Вакансии</p>
+            </div>
+          </div>
+          <div class="footer__disc">
+            <div class="footer__logo">
+              <img src="./assets/logo-1@2x.png" alt="logo" />
+            </div>
+            <div class="footer__text">
+              <p>
+                Наша цель – построить прозрачный, долгосрочный бизнес, приносить огромную пользу населению, путем решения глобальных вопросов. Внедряя инновационные технологии на рынок Узбекистана.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__product">
+            <h2 class="footer__product-title">Продукция</h2>
+            <span class="footer__product-disc">Эндоваскулярная хирургия</span>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#">Аритмология </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__active" href="#">Кардиохирургия</a>
+              </li>
+              <li class="footer__item">
+                <a href="#">Лабораторная </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">диагностика </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">Хирургия </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">Эндоурология  </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">Нейрохирургия  </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">Анестезиология </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">реанимация </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">Диабет </a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="footer__ser">
+            <h2 class="footer__title">Услуги</h2>
+            <a href="#">Сервис</a>
+            <a href="#">Регистрации</a>
+            <a href="#">Услуги логистики</a>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer__copy-wrapper">
+          <p class="footer__copy">© 2021 ООО «Medical Online Services» </p>
+          <p>Дизайн сделан: <span>damingues92@gmail.com</span></p>
+        </div>
+      </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      const productContainers = [...document.querySelectorAll('.news-container')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+productContainers.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+})
+    </script>
+  </body>
+</html>
